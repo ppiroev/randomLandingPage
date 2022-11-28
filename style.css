@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header, footer, .start {
+    background-color: #1F2937;
+    color: white;
+}
+
+header {
+    padding: 8px 10.3%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-content: center;
+}
+
+header h3 {
+    font-size: 32px;
+    text-shadow: 3px 3px black;
+}
+
+.benefits-img {
+    width: 250px;
+    height: auto;
+    border: solid #1F2937 3px;
+    border-radius: 7%;
+    box-shadow: 2px 3px 3px 3px #888888;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 24px;
+}
+
+a {
+   text-decoration: none; 
+   color: #f9faf8;
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0 72px;
+}
+
+.start-left h1 {
+    font-size: 48px;
+    text-shadow: 5px 5px black;
+}
+
+.logo {
+    width: 400px;
+    border-radius: 10%;
+    border: outset white 4px;
+}
+
+button {
+    background-color: #3882F6;
+    border: solid #3882F6 1px;
+    padding: 8px 24px;
+    color: white;
+    border-radius: 7%;
+    font-weight: bold;
+}
+
+button:active {
+    border-style: outset;
+}
+
+#features {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.features-head {
+    font-size: 32px;
+}
+
+.benefits {
+    display:flex;
+    justify-content: center;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    padding: 0 24px;
+}
+
+
+.qoute {
+    background-color: lightgray;
+    text-align: center;
+    padding: 24px 64px;
+}
+
+.qoute h6 {
+    text-align: right;
+    margin: 5px 25%;
+    font-size: 18px;
+}
+
+#cta {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 0;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    padding: 8px 24px;
+    border-radius: 25px;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta-box button {
+    border: solid white 2px;
+    height: 30px;
+    padding: 8px 24px 16px;
+}
+
+footer {
+  text-align: center;  
+}
